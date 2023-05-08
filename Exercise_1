@@ -8,8 +8,8 @@ Also make sure there are semi colons after your Create table statements, otherwi
 Good luck!
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-CREATE TABLE ingredients (
-  INGREDIENT VARCHAR (255),
+CREATE TABLE ingredient (
+  NAME VARCHAR (255),
   CONTAINS_LACTOSE BOOLEAN,
   VEGETARIAN BOOLEAN,
   VEGAN BOOLEAN,
