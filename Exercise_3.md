@@ -33,7 +33,7 @@ VALUES
  ---------------------------------------------------------------------------------------------------------------------------------------------
  SQL
  
- SELECT * FROM MEAL
+SELECT * FROM MEAL
 WHERE PRICE <15;
 
 SELECT * FROM INGREDIENT
@@ -54,13 +54,13 @@ WHERE PRICE < 15 OR CALORIES > 600;
 SELECT * FROM INGREDIENT 
 WHERE VEGAN OR GLUTEN_FREE;
 
-SELECT * MEAL
-WHERE NAME = 'Pesto Pasta';
+SELECT * FROM MEAL
+WHERE NAME ='Pesto Pasta';
 
-SELECT * INGREDIENT 
+SELECT * FROM INGREDIENT 
 WHERE CONTAINS_LACTOSE;
 
-SELECT * MEAL
+SELECT * FROM MEAL
 WHERE PRICE > 20 AND CALORIES < 800;
 
  
