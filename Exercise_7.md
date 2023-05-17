@@ -63,4 +63,4 @@ HAVING PRICE < (SELECT AVG(PRICE) FROM MEAL);
 
 #Write a query to select all meals that have a price lower than the average price and have more than 600 calories
 
-
+Non sono riuscito a farlo
